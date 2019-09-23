@@ -1,4 +1,3 @@
 function fish_greeting
-	clear
-neofetch
+    cowsay (fortune definitions riddles wisdom work platitudes linux -s) | lolcat
 end
