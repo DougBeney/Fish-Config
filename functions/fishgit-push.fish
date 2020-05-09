@@ -1,4 +1,4 @@
-function fishgit-save
+function fishgit-push
 if test "$argv" = ""
 echo You need to provide a change message
 return
