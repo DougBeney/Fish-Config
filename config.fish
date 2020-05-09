@@ -3,6 +3,7 @@
 # - $HOME/.local/opt/packages/[programming-language]
 set PKG_DIR $HOME/.local/opt/packages
 
+export PYTHONPATH="$PYTHONPATH:$PKG_DIR/python"
 export PYTHONHOME=$PKG_DIR/python
 export npm_config_prefix=$PKG_DIR/node
 export GEM_HOME=$PKG_DIR/ruby
