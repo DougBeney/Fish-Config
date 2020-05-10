@@ -1,4 +1,4 @@
 # Defined in - @ line 1
-function pip --wraps=pip3 --description 'alias pip=pip3'
-  pip3  $argv;
+function pip --wraps=pip3 --wraps='python3 -m pip' --description 'alias pip=python3 -m pip'
+  python3 -m pip $argv;
 end
