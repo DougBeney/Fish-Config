@@ -1,0 +1,14 @@
+# Set package managers of various programming languages
+# to install into a uniform location.
+# - $HOME/.local/opt/packages/[programming-language]
+export MY_PKG_DIR=$HOME/.local/opt/packages
+export PYTHONUSERBASE=$MY_PKG_DIR/python
+export npm_config_prefix=$MY_PKG_DIR/node
+export GEM_HOME=$MY_PKG_DIR/ruby
+
+export PATH="\
+$PATH:\
+$MY_PKG_DIR/python/bin:\
+$MY_PKG_DIR/node/bin:\
+$MY_PKG_DIR/ruby/bin"
+
