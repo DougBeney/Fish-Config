@@ -8,6 +8,7 @@ export GEM_HOME=$MY_PKG_DIR/ruby
 
 export PATH="\
 $PATH:\
+$HOME/.local/bin:\
 $MY_PKG_DIR/python/bin:\
 $MY_PKG_DIR/node/bin:\
 $MY_PKG_DIR/ruby/bin"
