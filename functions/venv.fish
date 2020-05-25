@@ -4,5 +4,5 @@ function venv --description 'blahblahblah'
     if test "$venv_name" = ""
 	set venv_name ".venv"
     end
-    virtualenv $venv_name;
+    virtualenv -p (which python3) $venv_name;
 end
