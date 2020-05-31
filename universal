@@ -13,3 +13,4 @@ $MY_PKG_DIR/python/bin:\
 $MY_PKG_DIR/node/bin:\
 $MY_PKG_DIR/ruby/bin"
 
+alias python="python3"
