@@ -1,5 +1,5 @@
 npm init --yes && \
-npm install --save-dev webpack webpack-cli webpack-dev-server css-loader sass-loader mini-css-extract-plugin html-webpack-plugin
+npm install --save-dev webpack webpack-cli webpack-dev-server css-loader sass-loader sass mini-css-extract-plugin html-webpack-plugin
 
 cp $HOME/.config/fish/templates/html5/index.html .
 
